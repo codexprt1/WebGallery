@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Times New Roman", Times, serif;
+}
+header {
+  display: flex;
+  flex-direction: column;
+  height: 30vh;
+  justify-content: center;
+  align-items: center;
+}
+header h2 {
+  padding: 2rem;
+}
+#logo {
+  text-decoration: none;
+  color: crimson;
+}
+.search {
+  padding: 2rem;
+  display: flex;
+}
+.search input {
+  font-size: 1rem;
+  padding: 0.5rem;
+  width: 100%;
+  border: none;
+  border: 2px solid crimson;
+  outline: none;
+}
+.search button {
+  border: none;
+  padding: 0.4rem;
+  font-size: 1rem;
+  background: rgb(79, 248, 155);
+  cursor: pointer;
+  color: crimson;
+}
