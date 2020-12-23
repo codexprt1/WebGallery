@@ -1,4 +1,4 @@
-const auth = "563492ad6f91700001000001dee8a2565efa4fb889e9ac74139dfcdf";
+const auth = // auth key 
 const gallery = document.querySelector('.gallery');
 const searchInput = document.querySelector('.search-input');
 const form = document.querySelector('.search');
